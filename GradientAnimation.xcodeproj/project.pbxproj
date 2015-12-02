@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4504C2291BCF9EDE00E73F14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504C2281BCF9EDE00E73F14 /* AppDelegate.swift */; };
+		4504C22B1BCF9EDE00E73F14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504C22A1BCF9EDE00E73F14 /* ViewController.swift */; };
+		4504C22E1BCF9EDE00E73F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4504C22C1BCF9EDE00E73F14 /* Main.storyboard */; };
+		4504C2301BCF9EDE00E73F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4504C22F1BCF9EDE00E73F14 /* Assets.xcassets */; };
+		4504C2331BCF9EDE00E73F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4504C2311BCF9EDE00E73F14 /* LaunchScreen.storyboard */; };
+		4504C23E1BCF9EDE00E73F14 /* GradientAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504C23D1BCF9EDE00E73F14 /* GradientAnimationTests.swift */; };
+		4504C2491BCF9EDE00E73F14 /* GradientAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504C2481BCF9EDE00E73F14 /* GradientAnimationUITests.swift */; };
+		4504C2571BCFA1A700E73F14 /* GradientAnimation-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4504C2561BCFA1A700E73F14 /* GradientAnimation-3.png */; settings = {ASSET_TAGS = (); }; };
+		4504C2591BCFA27B00E73F14 /* 屏幕快照 2015-10-15 下午4.59.02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4504C2581BCFA27B00E73F14 /* 屏幕快照 2015-10-15 下午4.59.02.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4504C23A1BCF9EDE00E73F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4504C21D1BCF9EDE00E73F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4504C2241BCF9EDE00E73F14;
+			remoteInfo = GradientAnimation;
+		};
+		4504C2451BCF9EDE00E73F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4504C21D1BCF9EDE00E73F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4504C2241BCF9EDE00E73F14;
+			remoteInfo = GradientAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4504C2251BCF9EDE00E73F14 /* GradientAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4504C2281BCF9EDE00E73F14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4504C22A1BCF9EDE00E73F14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4504C22D1BCF9EDE00E73F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4504C22F1BCF9EDE00E73F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4504C2321BCF9EDE00E73F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4504C2341BCF9EDE00E73F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4504C2391BCF9EDE00E73F14 /* GradientAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4504C23D1BCF9EDE00E73F14 /* GradientAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAnimationTests.swift; sourceTree = "<group>"; };
+		4504C23F1BCF9EDE00E73F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4504C2441BCF9EDE00E73F14 /* GradientAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4504C2481BCF9EDE00E73F14 /* GradientAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAnimationUITests.swift; sourceTree = "<group>"; };
+		4504C24A1BCF9EDE00E73F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4504C2561BCFA1A700E73F14 /* GradientAnimation-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GradientAnimation-3.png"; sourceTree = "<group>"; };
+		4504C2581BCFA27B00E73F14 /* 屏幕快照 2015-10-15 下午4.59.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2015-10-15 下午4.59.02.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4504C2221BCF9EDE00E73F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4504C2361BCF9EDE00E73F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4504C2411BCF9EDE00E73F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4504C21C1BCF9EDE00E73F14 = {
+			isa = PBXGroup;
+			children = (
+				4504C2271BCF9EDE00E73F14 /* GradientAnimation */,
+				4504C23C1BCF9EDE00E73F14 /* GradientAnimationTests */,
+				4504C2471BCF9EDE00E73F14 /* GradientAnimationUITests */,
+				4504C2261BCF9EDE00E73F14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4504C2261BCF9EDE00E73F14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4504C2251BCF9EDE00E73F14 /* GradientAnimation.app */,
+				4504C2391BCF9EDE00E73F14 /* GradientAnimationTests.xctest */,
+				4504C2441BCF9EDE00E73F14 /* GradientAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4504C2271BCF9EDE00E73F14 /* GradientAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4504C2561BCFA1A700E73F14 /* GradientAnimation-3.png */,
+				4504C2581BCFA27B00E73F14 /* 屏幕快照 2015-10-15 下午4.59.02.png */,
+				4504C2281BCF9EDE00E73F14 /* AppDelegate.swift */,
+				4504C22A1BCF9EDE00E73F14 /* ViewController.swift */,
+				4504C22C1BCF9EDE00E73F14 /* Main.storyboard */,
+				4504C22F1BCF9EDE00E73F14 /* Assets.xcassets */,
+				4504C2311BCF9EDE00E73F14 /* LaunchScreen.storyboard */,
+				4504C2341BCF9EDE00E73F14 /* Info.plist */,
+			);
+			path = GradientAnimation;
+			sourceTree = "<group>";
+		};
+		4504C23C1BCF9EDE00E73F14 /* GradientAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4504C23D1BCF9EDE00E73F14 /* GradientAnimationTests.swift */,
+				4504C23F1BCF9EDE00E73F14 /* Info.plist */,
+			);
+			path = GradientAnimationTests;
+			sourceTree = "<group>";
+		};
+		4504C2471BCF9EDE00E73F14 /* GradientAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4504C2481BCF9EDE00E73F14 /* GradientAnimationUITests.swift */,
+				4504C24A1BCF9EDE00E73F14 /* Info.plist */,
+			);
+			path = GradientAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4504C2241BCF9EDE00E73F14 /* GradientAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4504C24D1BCF9EDE00E73F14 /* Build configuration list for PBXNativeTarget "GradientAnimation" */;
+			buildPhases = (
+				4504C2211BCF9EDE00E73F14 /* Sources */,
+				4504C2221BCF9EDE00E73F14 /* Frameworks */,
+				4504C2231BCF9EDE00E73F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientAnimation;
+			productName = GradientAnimation;
+			productReference = 4504C2251BCF9EDE00E73F14 /* GradientAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4504C2381BCF9EDE00E73F14 /* GradientAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4504C2501BCF9EDE00E73F14 /* Build configuration list for PBXNativeTarget "GradientAnimationTests" */;
+			buildPhases = (
+				4504C2351BCF9EDE00E73F14 /* Sources */,
+				4504C2361BCF9EDE00E73F14 /* Frameworks */,
+				4504C2371BCF9EDE00E73F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4504C23B1BCF9EDE00E73F14 /* PBXTargetDependency */,
+			);
+			name = GradientAnimationTests;
+			productName = GradientAnimationTests;
+			productReference = 4504C2391BCF9EDE00E73F14 /* GradientAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4504C2431BCF9EDE00E73F14 /* GradientAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4504C2531BCF9EDE00E73F14 /* Build configuration list for PBXNativeTarget "GradientAnimationUITests" */;
+			buildPhases = (
+				4504C2401BCF9EDE00E73F14 /* Sources */,
+				4504C2411BCF9EDE00E73F14 /* Frameworks */,
+				4504C2421BCF9EDE00E73F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4504C2461BCF9EDE00E73F14 /* PBXTargetDependency */,
+			);
+			name = GradientAnimationUITests;
+			productName = GradientAnimationUITests;
+			productReference = 4504C2441BCF9EDE00E73F14 /* GradientAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4504C21D1BCF9EDE00E73F14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = fanfan;
+				TargetAttributes = {
+					4504C2241BCF9EDE00E73F14 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4504C2381BCF9EDE00E73F14 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4504C2241BCF9EDE00E73F14;
+					};
+					4504C2431BCF9EDE00E73F14 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4504C2241BCF9EDE00E73F14;
+					};
+				};
+			};
+			buildConfigurationList = 4504C2201BCF9EDE00E73F14 /* Build configuration list for PBXProject "GradientAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4504C21C1BCF9EDE00E73F14;
+			productRefGroup = 4504C2261BCF9EDE00E73F14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4504C2241BCF9EDE00E73F14 /* GradientAnimation */,
+				4504C2381BCF9EDE00E73F14 /* GradientAnimationTests */,
+				4504C2431BCF9EDE00E73F14 /* GradientAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4504C2231BCF9EDE00E73F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4504C2571BCFA1A700E73F14 /* GradientAnimation-3.png in Resources */,
+				4504C2331BCF9EDE00E73F14 /* LaunchScreen.storyboard in Resources */,
+				4504C2301BCF9EDE00E73F14 /* Assets.xcassets in Resources */,
+				4504C2591BCFA27B00E73F14 /* 屏幕快照 2015-10-15 下午4.59.02.png in Resources */,
+				4504C22E1BCF9EDE00E73F14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4504C2371BCF9EDE00E73F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4504C2421BCF9EDE00E73F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4504C2211BCF9EDE00E73F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4504C22B1BCF9EDE00E73F14 /* ViewController.swift in Sources */,
+				4504C2291BCF9EDE00E73F14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4504C2351BCF9EDE00E73F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4504C23E1BCF9EDE00E73F14 /* GradientAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4504C2401BCF9EDE00E73F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4504C2491BCF9EDE00E73F14 /* GradientAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4504C23B1BCF9EDE00E73F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4504C2241BCF9EDE00E73F14 /* GradientAnimation */;
+			targetProxy = 4504C23A1BCF9EDE00E73F14 /* PBXContainerItemProxy */;
+		};
+		4504C2461BCF9EDE00E73F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4504C2241BCF9EDE00E73F14 /* GradientAnimation */;
+			targetProxy = 4504C2451BCF9EDE00E73F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4504C22C1BCF9EDE00E73F14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4504C22D1BCF9EDE00E73F14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4504C2311BCF9EDE00E73F14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4504C2321BCF9EDE00E73F14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4504C24B1BCF9EDE00E73F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4504C24C1BCF9EDE00E73F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4504C24E1BCF9EDE00E73F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GradientAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilumanxi.GradientAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4504C24F1BCF9EDE00E73F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GradientAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilumanxi.GradientAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4504C2511BCF9EDE00E73F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradientAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilumanxi.GradientAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientAnimation.app/GradientAnimation";
+			};
+			name = Debug;
+		};
+		4504C2521BCF9EDE00E73F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradientAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilumanxi.GradientAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientAnimation.app/GradientAnimation";
+			};
+			name = Release;
+		};
+		4504C2541BCF9EDE00E73F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GradientAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilumanxi.GradientAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GradientAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4504C2551BCF9EDE00E73F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GradientAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilumanxi.GradientAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GradientAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4504C2201BCF9EDE00E73F14 /* Build configuration list for PBXProject "GradientAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4504C24B1BCF9EDE00E73F14 /* Debug */,
+				4504C24C1BCF9EDE00E73F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4504C24D1BCF9EDE00E73F14 /* Build configuration list for PBXNativeTarget "GradientAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4504C24E1BCF9EDE00E73F14 /* Debug */,
+				4504C24F1BCF9EDE00E73F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4504C2501BCF9EDE00E73F14 /* Build configuration list for PBXNativeTarget "GradientAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4504C2511BCF9EDE00E73F14 /* Debug */,
+				4504C2521BCF9EDE00E73F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4504C2531BCF9EDE00E73F14 /* Build configuration list for PBXNativeTarget "GradientAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4504C2541BCF9EDE00E73F14 /* Debug */,
+				4504C2551BCF9EDE00E73F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4504C21D1BCF9EDE00E73F14 /* Project object */;
+}

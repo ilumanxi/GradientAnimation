@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GradientAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWO-0I-Urc">
+                                <rect key="frame" x="200" y="250" width="200" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y92-pA-FC5">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Y92-pA-FC5" secondAttribute="trailing" id="345-iz-EzE"/>
+                                    <constraint firstItem="Y92-pA-FC5" firstAttribute="top" secondItem="bWO-0I-Urc" secondAttribute="top" id="Dug-27-FUF"/>
+                                    <constraint firstAttribute="width" constant="200" id="WL1-Z8-jCQ"/>
+                                    <constraint firstItem="Y92-pA-FC5" firstAttribute="leading" secondItem="bWO-0I-Urc" secondAttribute="leading" id="Y6N-pA-Uoy"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y92-pA-FC5" secondAttribute="bottom" id="ZNc-Vn-lvq"/>
+                                    <constraint firstAttribute="height" constant="100" id="bfw-Dh-MNh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bWO-0I-Urc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IGr-aA-6Bb"/>
+                            <constraint firstItem="bWO-0I-Urc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MI3-vo-fa8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="bWO-0I-Urc" id="ZoG-eb-qa6"/>
+                        <outlet property="textLabel" destination="Y92-pA-FC5" id="DHq-Ss-woJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
